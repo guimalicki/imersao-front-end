@@ -1,0 +1,49 @@
+
+body {
+    background-color: #000;
+}
+
+.sidebar{
+    position: fixed; /*Sempre será fixo na página */
+    top: 0;
+    left: 0;
+    bottom: 0;
+    padding: 12px; /* Caso coloque 1 valor, terá um espaçamento em todos os lados*/
+    width: 300px; /* Largura */
+}
+
+.sidebar__navigation {
+    background-color: #121212;
+    border-radius: 8px; /* arredondamento do formato */
+    padding: 16px 0 0 16px; /*Espaçamento do formato. Ordem: Cima, esquerdo, baixo, direito*/
+}
+
+.sidebar__navigation .logo {
+    background: #121212;
+    display: flex;
+    border-radius: 8px;
+    padding: 16px 0 0 16px;
+}
+
+
+.sidebar nav ul {
+    margin-top: 20px;
+    padding: 0 20px 10px 20px;
+}
+
+.sidebar nav ul li {
+    padding: 10px 0; /* Espaçamento entre as linhas */
+}
+
+.sidebar nav ul li a {
+    color: #b3b3b3;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 14px;
+    font-family: "DM Sans", sans-serif;
+}
+
+.logo img { /* Colocando a classe, apenas a(s) imagem(s) de dentro da classe logo serão alteradas  */
+    width: 80px; /* largura */
+
+}

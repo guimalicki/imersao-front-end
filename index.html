@@ -1,0 +1,44 @@
+<!-- iniciar com ! cria o layout brasico do htmldo html -->
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Spotify - Imersão</title>
+
+    <!-- Reset sempre precisa ser carregado antes do Styles.css-->
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="styles.css">
+    <!-- Links para trazer os ícones via CDN -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/solid.css"/>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/fontawesome.css"/>
+</head>
+<body>
+    <!--Div são divisões-->
+    <div class="sidebar"> <!-- Ao criar uma div ou outra tag no formato div.ALGUMNOME, já criará a classe, por exemplo div.sidebar-->
+        <nav class="sidebar__navigation"> <!-- Tag utilizada para criação de menus-->
+            <div class="logo">
+                <a href=""> <!-- tag para vinculo de links-->
+                    <img src="./assets/icons/logo-spotify.png" alt="logo do spotify">
+                </a>
+            </div>
+            <div>
+                <ul>  <!-- ul > li*2 Cria uma estrutura automatica com duas linhas li-->
+                    <li>
+                        <a href="">
+                            <span class= "fa fa-home"></span>
+                            <span>Início</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <span class= "fa fa-search"></span>
+                            <span>Buscar</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+</body>
+</html>
